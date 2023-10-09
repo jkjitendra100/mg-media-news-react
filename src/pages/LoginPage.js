@@ -10,7 +10,7 @@ export default function LoginPage() {
   const [password, setPassword] = useState("");
 
   if (user) {
-    return <Navigate to="../home" />;
+    return <Navigate to="../" />;
   }
 
   return (

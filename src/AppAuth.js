@@ -74,7 +74,7 @@ export const AppAuth = () => {
             <img
               className="lg:mx-4 w-10 md:w-20 hidden md:block scale-110"
               src={logo}
-              onClick={() => navigate("home")}
+              onClick={() => navigate("/")}
             />
             <div className="w-48 lg:w-40 mb-1.5 sm:mb-1 md:mb-0 ml-2 md:ml-0 absolute -bottom-1 left-10 sm:lef md:left-40 lg:left-28 text-sm sm:text-lg lg:text-2xl uppercase text-[#ff1717] font-bold duration-300">
               <h2
@@ -111,9 +111,9 @@ export const AppAuth = () => {
 
           <button
             className={`px-2 text-center text-base font-semibold hidden lg:block rounded-md hover:bg-red-200 duration-300 ${
-              pathname === "home" && "border-b-4 border-[#ff1717]"
+              pathname === "/" && "border-b-4 border-[#ff1717]"
             }`}
-            onClick={() => navigate("home")}
+            onClick={() => navigate("/")}
           >
             Home
           </button>
@@ -437,7 +437,7 @@ export const AppAuth = () => {
                 menuOpen ? "w-full" : "w-0 opacity-0"
               }`}
               onClick={() => {
-                navigate("home");
+                navigate("/");
                 setMenuOpen(false);
               }}
             >
@@ -649,7 +649,7 @@ export const AppAuth = () => {
               <ol className="text-xs list-none sm:taxt-sm md:text-base duration-500">
                 <li
                   className="p-1 cursor-pointer"
-                  onClick={() => navigate("../home")}
+                  onClick={() => navigate("../")}
                 >
                   Home
                 </li>

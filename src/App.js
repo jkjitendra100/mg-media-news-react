@@ -85,10 +85,10 @@ function App() {
           <Routes>
             {/* Normal User Access Pages */}
             <Route path="/" element={<AppAuth />}>
-              <Route path="" element={<Navigate to="home" />} />
+              <Route path="" element={<HomePage />} />
               <Route path="/login" element={<LoginPage />} />
               <Route path="/register" element={<Register />} />
-              <Route path="home" element={<HomePage />} />
+              {/* <Route path="home" element={<HomePage />} /> */}
               <Route path="profile" element={<ProfilePage />} />
               <Route path="business" element={<Business />} />
               <Route path="environment" element={<Environment />} />

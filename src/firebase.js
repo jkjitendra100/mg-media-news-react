@@ -4,13 +4,12 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAx2cqZD1weLWKwb4E2JlPwEIKYoeQ3FZo",
-  authDomain: "mg-media-news-1dc24.firebaseapp.com",
-  projectId: "mg-media-news-1dc24",
-  storageBucket: "mg-media-news-1dc24.appspot.com",
-  messagingSenderId: "630319903307",
-  appId: "1:630319903307:web:6248ca6e65fee9857c53ce",
-  measurementId: "G-TL3KGL4FY4"
+  apiKey: "AIzaSyA7Zv02HrIvd1NZuCSiPe4pc-EgtVDopzQ",
+  authDomain: "mg-media-news.firebaseapp.com",
+  projectId: "mg-media-news",
+  storageBucket: "mg-media-news.appspot.com",
+  messagingSenderId: "590000200033",
+  appId: "1:590000200033:web:6b48331ad33fcab85dcd20"
 };
 
 
